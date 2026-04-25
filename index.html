@@ -3,107 +3,150 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laman Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Book store</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 <body>
-    <!-- Section navigation start -->
-     <section>
+    <section id="navbar">
         <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">&lt;Laman/&gt;</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#about">About me</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact with me</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="buton" data-bs-toggle="dropdown" aria-expanded="false">
-                      Features
-                    </a>t
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#portfolio">Portfolio</a></li>
-                      <li><a class="dropdown-item" href="#projects">Projects</a></li>
-                      <li><a class="dropdown-item" href="#skills">Skills</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Book store</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Bestsellers">Bestsellers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Pricing">Pricing</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Catalog
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#Classic books">Classic books</a></li>
+            <li><a class="dropdown-item" href="#Children's books">Children's books</a></li>
+            <li><a class="dropdown-item" href="#Modern books">Modern books</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</section>
+<section id="Bestsellers">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 mt-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://static.insales-cdn.com/r/XluLOpXHbUI/rs:fit:488:488:1/q:80/plain/images/products/1/4741/318075525/61Zi2jjgfIL.jpg@webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">The little prince</h5>
+                        <p class="card-text">Antoine de Saint-Exupery</p>
+                        <a href="#" class="btn btn-primary">Buy for 3$</a>
+                    </div>
+                </div>
             </div>
-          </nav>
-     </section>
-    <!-- Section navigation end -->
-     <!-- home screen start -->
-      <header id="home" class="hero-section text-center">
-        <div class="container">
-            <img src="ddc4cb79fa0657ae12ad32aef49fb6b4_t.jpeg" class="rounded-circle mb-4 shadow" alt="profile picture">
-            <h1 class="display-4 fw-bold">Hello! I'm Laman Ismayilzada</h1>
-            <p class="lead text-muted">Full stack developer | web designer | robotics</p>
-            <div class="mt-4">
-                <a href="#projecs" class="btn btn-primary btn-lg">My projects</a>
-                <a href="#projecs" class="btn btn-outline-success btn-lg">Contact me</a>
+            <div class="col-12 col-md-6 col-lg-4 mt-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://static.insales-cdn.com/r/sq7nOu96t8I/rs:fit:488:488:1/q:80/plain/images/products/1/5477/215717221/9781847941831.jpg@webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Atomic Habits</h5>
+                        <p class="card-text">James clear</p>
+                        <a href="#" class="btn btn-primary">Buy for 20$</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mt-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://static.insales-cdn.com/r/7BrW87sFjiU/rs:fit:488:488:1/q:80/plain/images/products/1/4076/215715820/9781408855652.jpg@webp" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Harry Potter and the Philosopher's Stone</h5>
+                        <p class="card-text">J.K.Rowling</p>
+                        <a href="#" class="btn btn-primary">Buy for $15</a>
+                    </div>
+                </div>
             </div>
         </div>
-      </header>
-     <!-- home screen end -->
-      <section id="skills" class="container py-5">
-        <h2 class="text-center mb-5">Technological skills</h2>
-        <div class="row g-4">
-            <div class="col-md-6">
-              <p class="mb-1 fw-bold">Design | Figma/Canva</p>
-              <div class="progress mb-3" style="height: 20px;">
-                <div class="progress-bar bg-success" role="progressbar" style="width: 85%;">
-                    85%
-                </div>
-              </div>
+    </div>
+</section>
+<section id="Pricing">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 mt-5 mb-3">
+                <div class="card" style="width: 18rem;">
+  <img src="https://static.insales-cdn.com/r/bALLckwW11g/rs:fit:488:488:1/q:80/plain/images/products/1/3153/2529373265/9781526627605-us.jpg@webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">A long petal of the sea</h5>
+    <p class="card-text">Isabel Allendep>
+    <a href="#" class="btn btn-primary mt-3">Buy for $13</a>
+  </div>
+</div>
+</div>
+        <div class="col-12 col-md-6 col-lg-4 mt-5 mb-3">
+            <div class="card" style="width: 18rem;">
+  <img src="https://static.insales-cdn.com/r/XRte3rtutW8/rs:fit:488:488:1/q:80/plain/images/products/1/6721/2579651137/THE_PRINCE_cover.jpg@webp" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">The prince</h5>
+        <p class="card-text">Nicolo Machiavelli</p>
+        <a href="#" class="btn btn-primary mt-3">Buy for $20</a>
+    </div>
+</div>
             </div>
-            <div class="col-md-6">
-              <p class="mb-1 fw-bold">Front End development | HTML/CSS/JS</p>
-              <div class="progress mb-3" style="height: 20px;">
-                <div class="progress-bar bg-danger" role="progressbar" style="width: 75%;">
-                    75%
+            <div class="col-12 col-md-6 col-lg-4 mt-5 mb-3">
+            <div class="card" style="width: 18rem;">
+  <img src="https://static.insales-cdn.com/r/VAWX1_gb7r8/rs:fit:488:488:1/q:80/plain/images/products/1/3793/2509418193/761d457a376c062a3ddea21f5bdf13f2.jpg@webp" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">Ali and Nino</h5>
+        <p class="card-text">Kurban Said</p>
+        <a href="#" class="btn btn-primary mt-3">Buy for $7</a>
+    </div>
+</div>
+    </div>
+</section>
+<section id="Classic books">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 mt-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://static.insales-cdn.com/r/KhkxGCgQ6WQ/rs:fit:488:488:1/q:80/plain/images/products/1/193/2933465281/61GbXSnn5_L._SL1200_.jpg@webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">War and peace</h5>
+                        <p class="card-text">Leo Tolstoy</p>
+                        <a href="#" class="btn btn-primary">Buy for 9$</a>
+                    </div>
                 </div>
-              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mt-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://static.insales-cdn.com/r/PHl1y5XkM-A/rs:fit:488:488:1/q:80/plain/images/products/1/1761/2821826273/018fb02f-6d2b-7880-8bb5-fb36bb81282c-large.webp@webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title>Pride and Prejudice</h5>
+                        <p class="card-text">Jane Austen</p>
+                        <a href="#" class="btn btn-primary">Buy for 17$</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mt-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://static.insales-cdn.com/r/nWoCArFLmG0/rs:fit:488:488:1/q:80/plain/images/products/1/6529/2835560833/7105011248.webp@webp" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Martin Eden</h5>
+                        <p class="card-text">Jack London</p>
+                        <a href="#" class="btn btn-primary">Buy for $12</a>
+                    </div>
+                </div>
             </div>
         </div>
-      </section>
-    <section id="projects">
-        <div class="container">
-          <h2 class="text-center mb-5">Portfolio</h2>
-          <div class="row g-4">
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="card h-100 shadow-sm">
-                <img src="ddc4cb79fa0657ae12ad32aef49fb6b4_t.jpeg" class="card-img-top" alt="project1">
-                <div class="card-body">
-                  <h5 class="card-title">Light brighteness</h5>
-                  <p class="card-text text-muted">
-                    In this project you can change the brighteness of the light
-                  </p>
-                  <span class="badge bg-secondary mb-2">Tinkercad</span>
-                  <span class="badge bg-secondary mb-2">Arduino</span>
-                </div>
-                <div class="card-foote bg-transparent border-0 pb-3">
-                  <a href="#" class="btn btn-sm btn-outline-success"> Demo</a>
-                  <a href="#" class="btn btn-sm btn-outline-secondary">Github</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>  
-      </section>
+    </div>
+</section>
 
-
-    
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
